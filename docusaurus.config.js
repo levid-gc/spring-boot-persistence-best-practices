@@ -23,9 +23,13 @@ module.exports = {
           label: '文档',
           position: 'left',
         },
-        {to: 'blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/facebook/docusaurus',
+          to: 'blog',
+          label: '博客',
+          position: 'left'
+        },
+        {
+          href: 'https://github.com/levid-gc/spring-boot-persistence-best-practices',
           label: 'GitHub',
           position: 'right',
         },
