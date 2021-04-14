@@ -50,7 +50,7 @@ _Figure A-4. Persistence Context flush time_
 
 - 一旦当前的事务完成了（通过提交或者回滚的方式），那么持久化上下文中的对象将都处于脱离状态，这都是发生在调用 `EntityManager` 的 `clear()` 或者 `close()` 方法后。也可以调用名为 `detach()` （在 Hibernate 中调用 `evict()`）的方法来脱离特定的实体。这也就意味着，你后续再对这些对象做修改都不会反应到数据库中。传递后续的变更仅能在当前活动事务的上下文中重新 **合并** （通过 `merge()` 方法）或者 **重新附加** （通过 Hibernate ORM 的 `update()`，`saveOrUpdate()` 或者 `lock()` 操作）对象。这是 **事务型作用域** `EntityManager` （也就是事务型持久化上下文）的默认行为。同样也存在一个跨多个事务的 `EntityManager`，被称为扩展的持久化上下文。
 
-:::caution 注意
+:::caution
 
 不要认为 JPA 的 **合并** 与 Hibernate 的 **重附加** 操作是一样的。
 
@@ -84,7 +84,7 @@ JPA 实体可以处于以下任意状态：
 - _Detached_：实体存在于持久化上下文中，但是持久化上下文被关闭了，或者实体已被清理/驱逐（任何在脱离了的实体所作的更改都不会自动传递到数据库中）出了持久化上下文。
 - _Removed_：在持久化上下文中，实体已被标记为删除（flush 期间，Hibernate 会使用 `DELETE` 语句在数据库中删除对应的行）。
 
-:::tip 提示
+:::tip
 
 实体从 _transient_ 变为 _managed_ 会被翻译为一条 `INSERT` 语句。
 

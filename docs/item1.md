@@ -16,7 +16,7 @@ title: 项 1：如何高效使用 @OneToMany 关联
 @OneToMany(cascade = CascadeType.ALL)
 ```
 
-:::caution 注意
+:::caution
 
 在这种上下文中，永远不要在 `@ManyToOne` 上使用 `CascadeType.*`，因为实体状态应该是从父级一方传播到子级一方的。
 
