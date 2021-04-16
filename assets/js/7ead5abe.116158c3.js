@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[18],{90:function(t){t.exports=JSON.parse('{"allTagsPath":"/spring-boot-persistence-best-practices/blog/tags","slug":"dirty-write","name":"dirty write","count":1,"permalink":"/spring-boot-persistence-best-practices/blog/tags/dirty-write"}')}}]);

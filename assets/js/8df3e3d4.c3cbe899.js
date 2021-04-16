@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[19],{91:function(e){e.exports=JSON.parse('{"allTagsPath":"/spring-boot-persistence-best-practices/blog/tags","slug":"read-skew","name":"read skew","count":1,"permalink":"/spring-boot-persistence-best-practices/blog/tags/read-skew"}')}}]);

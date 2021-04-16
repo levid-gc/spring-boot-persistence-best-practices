@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[30],{101:function(e){e.exports=JSON.parse('{"allTagsPath":"/spring-boot-persistence-best-practices/blog/tags","slug":"hibernate","name":"hibernate","count":1,"permalink":"/spring-boot-persistence-best-practices/blog/tags/hibernate"}')}}]);

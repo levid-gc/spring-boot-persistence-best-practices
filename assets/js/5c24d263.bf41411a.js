@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[16],{87:function(e){e.exports=JSON.parse('{"allTagsPath":"/spring-boot-persistence-best-practices/blog/tags","slug":"hello","name":"hello","count":2,"permalink":"/spring-boot-persistence-best-practices/blog/tags/hello"}')}}]);

@@ -2,17 +2,17 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://levid-gc.github.io/blog</id>
     <title>Spring Boot 持久化最佳实践 Blog</title>
-    <updated>2021-04-14T00:00:00.000Z</updated>
+    <updated>2021-04-15T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://levid-gc.github.io/blog"/>
     <subtitle>Spring Boot 持久化最佳实践 Blog</subtitle>
     <icon>https://levid-gc.github.io/img/favicon.ico</icon>
     <entry>
-        <title type="html"><![CDATA[CascadeType.ALL 的使用及其注意项]]></title>
-        <id>using-cascadetype-and-what-to-avoid</id>
-        <link href="https://levid-gc.github.io/spring-boot-persistence-best-practices/blog/using-cascadetype-and-what-to-avoid"/>
-        <updated>2021-04-14T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[CascadeType.ALL 的含义是指持久化上下文会将所有的 EntityManager 操作（PERSIST, REMOVE, REFRESH, MERGE 和 DETACH）传递（级联）给所有与之关联的实体。]]></summary>
+        <title type="html"><![CDATA[SQL 异象]]></title>
+        <id>sql-phenomena</id>
+        <link href="https://levid-gc.github.io/spring-boot-persistence-best-practices/blog/sql-phenomena"/>
+        <updated>2021-04-15T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[SQL 异象是指：]]></summary>
     </entry>
     <entry>
         <title type="html"><![CDATA[JPA (Hibernate) 基础]]></title>
@@ -22,24 +22,10 @@
         <summary type="html"><![CDATA[持久化单元是什么？]]></summary>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Welcome]]></title>
-        <id>welcome</id>
-        <link href="https://levid-gc.github.io/spring-boot-persistence-best-practices/blog/welcome"/>
-        <updated>2019-05-30T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Blog features are powered by the blog plugin. Simply add files to the blog directory. It supports tags as well!]]></summary>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Hello]]></title>
-        <id>hello-world</id>
-        <link href="https://levid-gc.github.io/spring-boot-persistence-best-practices/blog/hello-world"/>
-        <updated>2019-05-29T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Welcome to this blog. This blog is created with Docusaurus 2 alpha.]]></summary>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Hola]]></title>
-        <id>hola</id>
-        <link href="https://levid-gc.github.io/spring-boot-persistence-best-practices/blog/hola"/>
-        <updated>2019-05-28T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet]]></summary>
+        <title type="html"><![CDATA[CascadeType.ALL 的使用及其注意项]]></title>
+        <id>using-cascadetype-and-what-to-avoid</id>
+        <link href="https://levid-gc.github.io/spring-boot-persistence-best-practices/blog/using-cascadetype-and-what-to-avoid"/>
+        <updated>2021-04-14T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[CascadeType.ALL 的含义是指持久化上下文会将所有的 EntityManager 操作（PERSIST, REMOVE, REFRESH, MERGE 和 DETACH）传递（级联）给所有与之关联的实体。]]></summary>
     </entry>
 </feed>

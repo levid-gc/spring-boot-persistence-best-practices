@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[24],{95:function(e){e.exports=JSON.parse('{"allTagsPath":"/spring-boot-persistence-best-practices/blog/tags","slug":"entity-manager","name":"entitymanager","count":1,"permalink":"/spring-boot-persistence-best-practices/blog/tags/entity-manager"}')}}]);
