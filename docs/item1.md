@@ -1,5 +1,6 @@
 ---
 title: 项 1：如何高效使用 @OneToMany 关联
+slug: /
 ---
 
 在领域模型中，双向 `@OneToMany` 估计是最常见到的关联。
